@@ -31,3 +31,4 @@ The API was scaffolded with a focus on simplicity to build understanding before 
 ├── MinimalApiDemo.sln    # Visual Studio solution file
 ├── .gitignore
 └── README.md
+```

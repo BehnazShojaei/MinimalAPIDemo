@@ -21,14 +21,18 @@ The API was scaffolded with a focus on simplicity to build understanding before 
 ## Project Structure
 
 ```bash
-.
-├── MinimalApiDemo/       # Main API project
-│   ├── Program.cs
-│   ├── appsettings.json
-│   ├── Properties/
-│   └── MyRequests.http
-├── publish/              # Build output (excluded via .gitignore)
-├── MinimalApiDemo.sln    # Visual Studio solution file
+
+├── DemoApi/
+│   └── API/
+│       ├── Program.cs
+│       ├── appsettings.json
+│       ├── appsettings.Development.json
+│       ├── Properties/
+│       ├── obj/
+│       ├── bin/
+│       └── MyRequests.http
 ├── .gitignore
-└── README.md
+├── MinimalApiDemo.sln
+├── README.md
+
 ```

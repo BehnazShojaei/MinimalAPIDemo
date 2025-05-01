@@ -5,14 +5,18 @@ obj/
 **/obj/
 publish/
 **/publish/
+*.zip
+*.tar.gz
+*.log
+publish.zip
 
-# User-specific files
+# User/IDE files
 *.user
 *.suo
 *.userprefs
-
-# VS Code settings (optional)
 .vscode/
-
-# macOS system files
 .DS_Store
+
+# Secrets (optional)
+*.env
+.env.local

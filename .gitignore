@@ -1,7 +1,10 @@
 bin/
 obj/
+**/bin/
+**/obj/
 .vscode/
 *.user
 *.suo
 *.userprefs
 *.DS_Store
+**/publish/

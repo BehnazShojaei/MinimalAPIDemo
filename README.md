@@ -28,8 +28,6 @@ The API was scaffolded with a focus on simplicity to build understanding before 
 │       ├── appsettings.json
 │       ├── appsettings.Development.json
 │       ├── Properties/
-│       ├── obj/
-│       ├── bin/
 │       └── MyRequests.http
 ├── .gitignore
 ├── MinimalApiDemo.sln

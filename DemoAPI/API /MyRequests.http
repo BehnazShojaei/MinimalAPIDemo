@@ -1,0 +1,14 @@
+### Test root endpoint
+GET http://localhost:5224/
+
+### Test /api/hi endpoint
+GET http://localhost:5224/api/hi
+
+### Test POST to /api/items
+POST http://localhost:5224/api/items
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Test Item"
+}

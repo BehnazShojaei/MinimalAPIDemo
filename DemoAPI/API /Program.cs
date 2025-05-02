@@ -6,7 +6,7 @@ var app = builder.Build();
 
 var itemsGroup = app.MapGroup("/api");
 
-itemsGroup.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Hello World!");
 itemsGroup.MapGet("/hi", () => "Hi!");
 itemsGroup.MapPost("/items", (Item item) =>
 {
@@ -14,10 +14,11 @@ itemsGroup.MapPost("/items", (Item item) =>
 });
 
 
-app.Run();
+// app.Run();
+app.Run($"http://0.0.0.0:{Environment.GetEnvironmentVariable("PORT") ?? "5224"}");
 
 public class Item
 {
     public int Id { get; set; }
-    public string? MyProperty { get; set; }
+    public string? Name { get; set; }
 }
